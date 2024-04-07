@@ -13,21 +13,21 @@ const Portfolio = () => {
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
-            <div className='absolute lg:bottom-[-70px] bottom-[-40px] text-[#FF4522] right-[50px] text-[30px] cursor-pointer' onClick={onClick}> <GrLinkNext /> </div>
+            <div data-aos='fade-right' className='absolute lg:bottom-[-70px] bottom-[-40px] text-[#FF4522] right-[50px] text-[30px] cursor-pointer' onClick={onClick}> <GrLinkNext /> </div>
         );
     }
 
     function SamplePrevArrow(props) {
         const { className, style, onClick } = props;
         return (
-            <div className='absolute lg:bottom-[-70px] bottom-[-40px] text-[#FF4522] right-[100px] z-10 text-[30px] cursor-pointer' onClick={onClick}> <GrLinkPrevious /> </div>
+            <div data-aos='fade-left' className='absolute lg:bottom-[-70px] bottom-[-40px] text-[#FF4522] right-[100px] z-10 text-[30px] cursor-pointer' onClick={onClick}> <GrLinkPrevious /> </div>
         );
     }
 
 
     var settings = {
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -66,11 +66,11 @@ const Portfolio = () => {
         <>
             <div className=" bg-[#494B50] lg:py-[120px] py-[50px]">
                 <div className="container mx-auto ">
-                    <div className="lg:w-[50%] w-full lg:mx-0 mx-[10px]">
-                        <h3 className='text-[28px] text-[#FF4522] font-pops font-semibold'>Portfolio</h3>
-                        <h2 className='text-[32px] text-[#fff] font-pops font-bold'>SELECTED WORKS</h2>
+                    <div className="lg:w-[50%] w-full lg:px-0 px-[10px]">
+                        <h3 data-aos='fade-up' className='text-[28px] text-[#FF4522] font-pops font-semibold'>Portfolio</h3>
+                        <h2 data-aos='fade-up' className='text-[32px] text-[#fff] font-pops font-bold'>SELECTED WORKS</h2>
                     </div>
-                    <div className="pt-[50px] lg:mx-0 mx-[10px] ">
+                    <div data-aos='fade-up' className="pt-[50px] lg:mx-0 mx-[10px] ">
                         <Slider {...settings}>
 
                             <div className="w-[30%]    ">
