@@ -67,6 +67,7 @@ const Skills = () => {
         <div className="">
               <h2 data-aos='fade-right' className='text-[24px] text-[#FF4522] font-pops font-semibold' >Skills</h2>
               <h3 data-aos='fade-right' className='text-[32px] text-[#FFF] font-pops font-bold uppercase' >Coding Skills</h3>
+              <p data-aos='fade-right' className='text-[16px] lg:w-[30%] text-[rgba(255,255,255,0.78)] font-pops font-medium pt-[20px]'>I think 2 years our experts have been accomplishing enough with modern Web Development.</p>
             </div>
 
           <div className="lg:w-[70%] w-full mx-auto shadow-2xl mt-[40px]  ">
