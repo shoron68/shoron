@@ -9,6 +9,7 @@ export default {
     fontFamily : {
       'nunito': ["Poppins", "sans-serif"],
       'pops': ["Nunito Sans", "sans-serif"],
+      'type': ["Source Code Pro", "monospace"],
     }
   },
   plugins: [],

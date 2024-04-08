@@ -9,7 +9,7 @@ import { FaXTwitter,FaInstagram  } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div className="bg-[#303134]">
+        <div className="bg-[#494B50]">
             <div className="container mx-auto lg:py-[120px] py-[80px]">
                 <div className="lg:flex lg:justify-between lg:mx-0 mx-[10px]">
                     <div className="lg:w-[40%] w-full ">
@@ -36,19 +36,19 @@ const Contact = () => {
                                 <a href="#"><h5 data-aos='fade-right' className='pl-[10px] text-[18px] text-[#fff] font-pops font-medium duration-300 hover:text-[#ff4722] '>www.domain.com</h5></a>
                             </div>
                         </div>
-                        <div className="flex mt-[40px] ">
+                        <div data-aos='fade-right' className="flex mt-[40px]   ">
                         <FaFacebookF data-aos='fade-right' className=' cursor-pointer text-[25px] text-[#FF4522]  transition duration-300 ease-in-out hover:scale-110' />
                         <FaXTwitter data-aos='fade-right' className='cursor-pointer mx-[20px] text-[25px] text-[#FF4522]  transition duration-300 ease-in-out hover:scale-110' />
                         <FaInstagram data-aos='fade-right'  className='cursor-pointer  text-[25px] text-[#FF4522]  transition duration-300 ease-in-out hover:scale-110' />
 
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="lg:w-[40%] w-full mt-[80px]">
-                        <input type="text" placeholder='Name' className='text-[#fff] font-pops block bg-transparent rounded-[5px] border-[1px] py-[10px] pl-[20px] lg:pr-[200px] pr-[130px]' />
-                        <input type="text" placeholder='Email' className=' text-[#fff] my-[30px] font-pops block bg-transparent rounded-[5px] border-[1px] py-[10px] pl-[20px] lg:pr-[200px] pr-[130px]' />
-                        <input type="text" placeholder='Message' className=' text-[#fff] font-pops block bg-transparent rounded-[5px] border-[1px] pt-[10px] pb-[70px] pl-[20px] lg:pr-[200px] pr-[130px]' />
+                    <div data-aos='fade-up' className="lg:w-[40%] w-full mt-[80px] lg:mx-0 mx-auto">
+                        <input data-aos='fade-up' type="text" placeholder='Name' className='text-[#fff] font-pops block bg-transparent rounded-[5px] border-[1px] py-[10px] pl-[20px] lg:pr-[200px] pr-[130px]' />
+                        <input data-aos='fade-up' type="text" placeholder='Email' className=' text-[#fff] my-[30px] font-pops block bg-transparent rounded-[5px] border-[1px] py-[10px] pl-[20px] lg:pr-[200px] pr-[130px]' />
+                        <input data-aos='fade-up' type="text" placeholder='Message' className=' text-[#fff] font-pops block bg-transparent rounded-[5px] border-[1px] pt-[10px] pb-[70px] pl-[20px] lg:pr-[200px] pr-[130px]' />
                         
-                        <button className=' my-[30px] text-[16px] font-pops text-[#fff] py-[10px] rounded-[5px] lg:px-[184px] px-[142px] bg-[#ff4722] transition duration-300 ease-in-out hover:scale-90'>Submit</button>
+                        <button data-aos='fade-up' className=' my-[30px] text-[16px] font-pops text-[#fff] py-[10px] rounded-[5px] lg:px-[184px] px-[142px] bg-[#ff4722] transition duration-300 ease-in-out hover:scale-90'>Submit</button>
                     </div>
 
                 </div>

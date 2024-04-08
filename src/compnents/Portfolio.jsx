@@ -64,7 +64,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className=" bg-[#494B50] lg:py-[120px] py-[50px]">
+            <div className=" bg-[#303134] lg:py-[120px] py-[50px]">
                 <div className="container mx-auto ">
                     <div className="lg:w-[50%] w-full lg:px-0 px-[10px]">
                         <h3 data-aos='fade-up' className='text-[28px] text-[#FF4522] font-pops font-semibold'>Portfolio</h3>

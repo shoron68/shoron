@@ -23,7 +23,7 @@ const Banner = () => {
                         <div className="lg:flex lg:justify-between">
                             <div className="lg:w-[50%] w-full lg:text-start text-center  lg:mt-[30px]">
                                 <h1 data-aos='fade-in' className='text-[white] lg:text-[58px] text-[32px] font-pops font-bold' >Hi'<br /> I'm <span>Musfiqur Rahman</span></h1>
-                                <h2 data-aos='fade-in' className='text-[#FF4522] lg:text-[48px] text-[24px] font-type font-medium'>F{text} <Cursor /></h2>
+                                <h2 data-aos='fade-in' className='text-[#FF4522] lg:text-[48px] text-[24px] font-type font-medium'>F{text}<Cursor /></h2>
 
                                 <div data-aos='fade-right' className="">
                                     <p className='pt-[40px] lg:text-start text-center text-[14px] lg:text-[16px] text-[#ffffffe1] font-pops font-light'>As a frontend developer, you play a crucial role in crafting the user experience of websites and applications. Your expertise lies in translating design mockups and user interface (UI) concepts into interactive and engaging digital experiences. You work with a combination of programming languages such as HTML, CSS, and JavaScript to create responsive layouts, implement animations, and ensure seamless functionality across various devices and browsers.</p>

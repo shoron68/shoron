@@ -6,3 +6,18 @@
     padding: 0;
     margin: 0;
 }
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #FF4522 !important;
+    stroke-linecap: round;
+  }
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #FFF;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke:transparent;
+    stroke-linecap: round;
+  }
